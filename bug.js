@@ -1,0 +1,1 @@
+This bug occurs when using the Expo Camera API with certain Android devices.  The camera preview freezes or shows a black screen after a short period, and the `onCameraReady` callback never fires.  This happens inconsistently, and there are no obvious error messages in the console.
